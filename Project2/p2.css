@@ -1,0 +1,109 @@
+#header{
+    width:100%;
+    height: 100px;
+    background-color: brown;
+
+}
+#header h1{
+    padding-top: 30px;
+    padding-left: 10px;
+    color: white;
+}
+#header ul{
+    float: right;
+    margin-top: -50px;
+    
+}
+#header ul li {
+    display: inline;
+    
+}
+#header ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 70px;
+    font-size: 20px
+}
+.box{
+    border-style: solid;
+    border-radius: 4px;
+    color: brown;
+}
+.box:hover{
+    background-color: black;
+    opacity: 0.5;
+}
+#main{
+    width: 55%;
+    height: 375px;
+    float: left;
+}
+#main img{
+    width: 100%;
+    height: 150px;
+}
+#box1 h2{
+    margin-left: 20px;
+}
+#box1{
+    width:40%;
+    height: 335px;
+    background-color: lightgrey;
+    float: right;
+    margin-top: 40px;
+}
+#box1 ul li{
+    margin-bottom: 25px;
+
+}
+#box1 ul li a{
+    color: brown;
+
+}
+
+
+.button{
+    border-style: solid;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 7px;
+    border-color: brown;
+    background-color: brown;
+    color: white;
+
+}
+#one{
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+#two{
+    width: 32%;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+    margin-top: 30px;
+}
+#three{
+    width: 32%;
+    height: 200px;
+    float: right;
+    margin-top: 30px;
+}
+#one img{
+    width: 100%;
+    height: 150px;
+}
+#two img{
+    width: 100%;
+    height: 150px;
+}
+#three img{
+    width: 100%;
+    height: 150px;
+}
+
+
+
