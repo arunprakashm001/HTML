@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student sign up</title>
+</head>
+<body>
+    <h1>AYYA NADAR JANAKI AMMAL COLLEGE</h1>
+    <a href="Home.html">HOME</a>
+    <a href="departments.html">DEPARTMENTS</a>
+    <a href="Activities.html">ACTIVITES</a>
+    <a href="StudentSIgnup.html">SIGN UP</a>
+    <a href="contact.html">CONTACTUS</a>
+    <br>
+    <br>
+    <h2>Students Signup</h2>
+    <form action="index.html">
+        <div>
+            <label for="username">UserName</label>
+            <input type="text" name="username" id="username" required>
+        </div>
+        <div>
+            <label for="psword">Password</label>
+            <input type="password" name="psword" id="psword" required minlength="6">
+        </div>
+        <div>
+            <label for="rollno">RollNo</label>
+            <input type="number" name="rollno" id="rollno" required>
+        </div>
+        <div>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" name="DOB" id="DOB" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="about">About</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="smsalert" id="smsalert">
+            <label for="smsalert">SMS Alert</label>
+        </div>
+        <div>
+            <input type="checkbox" name="emailalert" id="emailalert">
+            <label for="emailalert">Emailalert</label>
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label>
+        </div>
+        <div><input type="radio" name="gender" id="female" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="verifi">Choose</label>
+            <select name="verifi" id="verifi" required>
+                
+                <option value="dayscholar">Dayscholar</option>
+                <option value="Hosteler">Hosteler</option>
+            </select>
+        </div>
+        <div>
+            <label for="file">For any file Upload</label>
+            <input type="file" name="file" id="file">
+        </div>
+        <!-- <button type="submit">Sign Up</button> -->
+        <input type="image" src="imagess/360_F_295336394_tZtNFhp47hyjJPFhBliLNjKyQnuOReOB.jpg" width="90">
+        <button type="reset">Reset</button>
+        
+
+    </form>
+</body>
+</html>
